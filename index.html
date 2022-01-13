@@ -4,44 +4,49 @@
         <meta charset="utf-8" />
         <meta name="description" content="Web-Studio-(Version-2.1)" />
         <title>Web Studio</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+            rel="stylesheet">
+        <link rel="stylesheet" href="./css/styles.css">
     </head>
         <body>
             <!--Header section-->
-                <header>
-                        <a href="/"><span>Web</span>Studio</a>
-                    <nav>
-                        <ul>
-                            <li><a href="#studio">Студия</a></li>
-                            <li><a href="#portfolio">Портфолио</a></li>
-                            <li><a href="#contact">Контакты</a></li>
+                <header class="header">
+                        <a href="/" class="logo"><span>Web</span>Studio</a>
+                    <nav class="navigation">
+                        <ul class="header-list">
+                            <li class="header-item"><a href="#studio" class="header-link">Студия</a></li>
+                            <li class="header-item"><a href="#portfolio" class="header-link">Портфолио</a></li>
+                            <li class="header-item"><a href="#contact" class="header-link">Контакты</a></li>
                         </ul>
                     </nav>
-                        <a href="mailto:info@devstudio.com">info@devstudio.com</a>
-                        <a href="tel:+380961111111">+38 096 111 11 11</a>
+                        <a href="mailto:info@devstudio.com" class="header-link-mail">info@devstudio.com</a>
+                        <a href="tel:+380961111111" class="header-link-tel">+38 096 111 11 11</a>
                 </header>
             <!--Main section-->
                 <main>
-                    <section id="studio">
-                        <h1>Эффективные решения для вашего бизнеса</h1>
-                        <button type="button">Заказать услугу</button>
+                    <section id="studio" class="caption">
+                        <h1 class="title-caption">Эффективные решения для вашего бизнеса</h1>
+                        <button type="button" class="btn-caption">Заказать услугу</button>
                     </section>
-                    <section> 
-                        <ul>
-                            <li>
-                                <h3>Внимание к деталям</h3>
-                                <p>Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
+                    <section class="hero"> 
+                        <ul class="hero-list">
+                            <li class="hero-item">
+                                <h3 class="hero-title">Внимание к деталям</h3>
+                                <p class="hero-sub-title">Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
                             </li>
-                            <li>
-                                <h3>Пунктуальность</h3>
-                                <p>Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</p>
+                            <li class="hero-item">
+                                <h3 class="hero-title">Пунктуальность</h3>
+                                <p class="hero-sub-title">Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</p>
                             </li>
-                            <li>
-                                <h3>Планирование</h3>
-                                <p>Равным образом консультация с широким активом в значительной степени обуславливает.</p>
+                            <li class="hero-item">
+                                <h3 class="hero-title">Планирование</h3>
+                                <p class="hero-sub-title">Равным образом консультация с широким активом в значительной степени обуславливает.</p>
                             </li>
-                            <li>
-                                <h3>Современные технологии</h3>
-                                <p>Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
+                            <li class="hero-item">
+                                <h3 class="hero-title">Современные технологии</h3>
+                                <p class="hero-sub-title">Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
                             </li>
                         </ul>
                     </section>
