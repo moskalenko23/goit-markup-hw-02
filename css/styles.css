@@ -3,6 +3,7 @@
   --btn-background: #2196f3;
   --accent-color: #2196f3;
   --title-color: #212121;
+  --alternative-color: #ffffff;
 }
 body {
   font-family: 'Roboto', sans-serif;
@@ -19,7 +20,7 @@ p {
 }
 /*------------Header section--------------*/
 .header {
-  background: #ffffff;
+  background: var(--alternative-color);
 }
 .logo {
   font-family: Raleway;
@@ -34,7 +35,7 @@ p {
   color: var(--accent-color);
 }
 .navigation {
-  background: #ffffff;
+  background: var(--alternative-color);
 }
 .header-item {
   font-size: 14px;
@@ -63,6 +64,7 @@ p {
   color: var(--accent-color);
 }
 /*------------Main section--------------*/
+/*------------Studio page---------------*/
 .hero {
   background: #2f303a;
 }
@@ -73,7 +75,7 @@ p {
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  color: #ffffff;
+  color: var(--alternative-color);
 }
 .btn-hero {
   font-family: inherit;
@@ -82,7 +84,7 @@ p {
   font-size: 16px;
   line-height: calc(30 / 16);
   letter-spacing: 0.06em;
-  color: #ffffff;
+  color: var(--alternative-color);
   background-color: var(--btn-background);
 }
 .sub-hero-title {
@@ -93,7 +95,6 @@ p {
   color: var(--title-color);
 }
 .text-sub-title {
-  font-weight: normal;
   font-size: 14px;
   line-height: calc(24 / 14);
   letter-spacing: 0.03em;
@@ -123,6 +124,34 @@ p {
   letter-spacing: 0.03em;
   color: var(--after-title-text-color);
 }
+/*------------Portfolio page---------------*/
+.portfolio-button:hover,
+.portfolio-button:focus {
+  color: var(--alternative-color);
+  background: var(--btn-background);
+}
+.portfolio-button {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: calc(26 / 16);
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--title-color);
+}
+.portfolio-projects-title {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: calc(36 / 18);
+  letter-spacing: 0.06em;
+  color: var(--title-color);
+}
+.portfolio-projects-text {
+  font-size: 16px;
+  line-height: calc(30 / 16);
+  letter-spacing: 0.03em;
+  color: var(--after-title-text-color);
+}
 /*------------Footer section--------------*/
 .footer {
   background: #2f303a;
@@ -134,7 +163,7 @@ p {
   font-size: 26px;
   line-height: calc(31 / 26);
   letter-spacing: 0.03em;
-  color: #ffffff;
+  color: var(--alternative-color);
 }
 .logo-footer-span {
   color: var(--accent-color);
@@ -142,11 +171,14 @@ p {
 .footer-link-address {
   font-style: normal;
   font-size: 14px;
-  color: #ffffff;
+  color: var(--alternative-color);
   line-height: calc(24 / 14);
 }
+.footer-link-address:hover,
+.footer-link-address:focus {
+  color: var(--accent-color);
+}
 .footer-list-item {
-  font-style: normal;
   font-weight: normal;
   font-size: 14px;
   line-height: calc(24 / 14);
